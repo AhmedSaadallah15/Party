@@ -1,0 +1,124 @@
+#header{
+    height: 100vh;
+    background-image: url(../img/events-heavenly-header\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.caption-layout{
+    height: 100vh;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+#header .caption{
+    text-align: center;
+}
+#header h1{
+    font-size: 60px;
+}
+.open-nav{
+    left:250px; 
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-bar{
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #111;
+}
+.nav-bar a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 25px;
+    padding: 20px 8px 20px 32px;
+    transition: 0.5s all;
+}
+.nav-bar i {
+    color: white;
+    position: relative;
+    font-size: 25px;
+    padding-top: 50px ;
+    left: 80%;
+    transition: 0.5s all;
+}
+.nav-bar a:hover ,.nav-bar i:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+
+
+
+#singers h2{
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+    padding: 10px 200px;
+    margin: 0;
+    width: 60%;
+    cursor: pointer;
+}
+#singers p{
+    background-color: #ccc;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+#time{
+    background-image: url(../img/invitation-2508607__340.jpg);
+    /* height: 50vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#time .container-fluid{
+    /* height: 50vh; */
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.event{
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+}
+
+.mail{
+    color: #D62E33 ;
+    font-size: 1rem;
+    
+}
+
+
+#Contact .icons .icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid 1px #999;
+    cursor: pointer;
+    transition: 0.5 all;
+    color: #777;
+
+}
+
+#Contact .icons .icon:hover{
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+#exampleFormControlTextarea1{
+    height: 200px;
+}
+
+.btn {
+    padding: 15px 30px;
+    border-radius: 0;
+}
